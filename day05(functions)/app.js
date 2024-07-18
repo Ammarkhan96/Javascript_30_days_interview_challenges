@@ -153,3 +153,20 @@
 
 // let result2 = applyFunction(square,double, 5)
 // console.log(result2);
+
+
+
+// function applyFunction(func1, func2, value){
+//     let result1 = func1(value)
+//     let result2 = func2(result1)
+//     return result2
+// }
+
+// const double = (x) => x * 4
+// const square =  (x) => x * x
+
+// let result1 = applyFunction(double, square, 7)
+// console.log(result1);
+
+// let result2 = applyFunction(square,double, 9)
+// console.log(result2);
