@@ -1,0 +1,33 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e0e0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.hover-box {
+    width: 300px;
+    height: 150px;
+    background-color: #4CAF50; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.hover-box:hover {
+    background-color: #45a049; 
+}
